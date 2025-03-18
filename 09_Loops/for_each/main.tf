@@ -29,3 +29,8 @@ resource "azurerm_subnet" "mysubnet" {
     depends_on = [ azurerm_resource_group.myrg, azurerm_virtual_network.myvnet ]
   
 }
+
+resource "azurerm_network_interface" "mynic" {
+    
+  
+}

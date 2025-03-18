@@ -36,7 +36,7 @@ resource "azurerm_linux_virtual_machine" "myvm" {
     name                     = "nextopsvm-${count.index}"
     location                 = azurerm_resource_group.myrg.location
     resource_group_name      = azurerm_resource_group.myrg.name
-    size                  = "Standard_B1s"
+    size                     = "Standard_B1s"
     admin_username           = "azureadmin"
     network_interface_ids    = [azurerm_network_interface.mynic[count.index].id]
 
