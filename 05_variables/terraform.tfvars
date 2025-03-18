@@ -1,0 +1,5 @@
+rg_name = "AKSRG"
+rg_location = "East US"
+acr_name = "NEXTOPS-ACR"
+acr_sku = "Standard"
+aks_name = "NEXTOPS_AKS"
