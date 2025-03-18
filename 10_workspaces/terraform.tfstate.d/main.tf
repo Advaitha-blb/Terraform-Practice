@@ -12,9 +12,7 @@ resource "azurerm_virtual_network" "myvnet" {
     name                  = var.vnet_name
     address_space         = var.vnet_address_space 
 
-    tags = {
-      env = terraform.workspace
-    }
+    
 }
 resource "azurerm_subnet" "mysubnet" {
     name = var.subnet_name
