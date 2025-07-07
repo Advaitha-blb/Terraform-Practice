@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "RG" {
 }
 
 resource "azurerm_storage_account" "Storage" {
-    name = "my_Storage"
+    name = "mystorage"
     resource_group_name = azurerm_resource_group.RG.name
     location = azurerm_resource_group.RG.location
     account_tier = "Standard"
