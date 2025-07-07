@@ -1,3 +1,4 @@
+
 rg_name = demoRG
 rg_location = EastUS
 subscription_id = "xxxxx"
